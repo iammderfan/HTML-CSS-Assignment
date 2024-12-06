@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="layout">
+
+         <form >
+          <fieldset>
+            <legend>&nbsp;JOB APPLICATION FORM&nbsp;</legend>
+
+          
+          <div class="user__details">
+            <div class="input__box">
+              <span class="details">FIRST NAME</span>
+              <input type="text" placeholder="ENTER YOUR FIRST NAME" required class="input">
+            </div>
+            <div class="input__box">
+              <span class="details">LAST NAME</span>
+              <input type="text" placeholder="ENTER YOUR LAST NAME" required class="input">
+            </div>
+            <div class="clear"></div>
+            <div class="input__box">
+              <span class="details">EMAIL</span>
+              <input type="email" placeholder="xyz@gmail.com" required class="input">
+            </div>
+            <div class="input__box">
+              <span class="details">MOBILE NUMBER</span>
+              <input type="tel" pattern="[0-9]{10}" placeholder="012-345-6789" required class="input">
+            </div>
+            <div class="clear"></div>
+            <div class="input__box">
+              <span class="details">DOB</span>
+              <input type="date"  required class="input">
+            </div>
+            
+            <div class="input__box">
+                <span class="details">STATE</span>
+                <select name="" id="" class=" input_Sate" required>
+                    <option value="">SELECT</option>
+                    <option value="">Andhra Pradesh</option>
+                    <option value="">Goa</option>
+                    <option value="">Haryana </option>
+                    <option value="">Bihar</option>
+                </select>
+              
+            </div>
+            <div class="clear"></div>
+           
+            <div class="gender">
+                <label for="" class="GENDER_Heading">GENDER</label> 
+                <div class="gender_box">
+                  <input type="radio" name="GENDER" id="" class="radio" required > MALE
+                  <input type="radio" name="GENDER" id="" class="radio" required> FEMALE
+                  <input type="radio" name="GENDER" id="" class="radio" required> OTHER
+                </div>
+
+            </div>
+          
+            <div class="">
+                <span class="Address">ADDRESS</span><br/>
+                <textarea name="" id="" Job Application Form placeholder="ENTER YOUR ADDRESS" class="textarea"></textarea>
+                
+            </div>
+          </div>
+
+          <div class="gender">
+            <label for="" class="GENDER_Heading">QUALIFICATION</label>  
+            <div class="gender_box">
+              <input type="radio" name="qulification" id="" class="radio" required > 10<sup>TH</sup>
+              <input type="radio" name="qulification" id="" class="radio" required> 12<sup>TH</sup>
+              <input type="radio" name="qulification" id="" class="radio" required> UNDER GRADUATE  
+              <input type="radio" name="qulification" id="" class="radio" required> POST GRADUATE
+            </div>
+        </div>
+
+        <div class="gender">
+          <label for="" class="GENDER_Heading">UPLOAD IMAGE</label>  
+          <div class="gender_box">
+            <input type="file" accept="image/*" required class="file">
+          </div>
+      </div>
+          
+          <div class="Allbtn">
+           <button class="button">SAVE</button>
+           <button class="button">RESET</button>
+          </div>
+        </fieldset>
+        </form>
+      </div>
+</body>
+</html>
