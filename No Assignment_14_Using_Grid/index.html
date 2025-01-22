@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .contener{
+            width: 1340px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 50px;
+        }
+        h1{
+            margin-top: 20px;
+            font-size: 28px;
+            margin-bottom: 50px;
+
+        }
+        p{
+            padding-top: 10px;
+            line-height: 30px;
+        }
+        .gallrey{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 15px;
+        }
+        .gallrey-item{
+            overflow: hidden;
+            border: 0.5px solid black;
+            border-radius: 10px;
+            grid-row-end: span 2;
+        }
+        .gallrey-item img{
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+        .span1{
+            grid-row-end: span 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <h1>Project Gallery</h1>
+        <div class="gallrey">
+            <div class="gallrey-item .span1">
+                <img src="images/marcella-marcella-hn6CC9aosEk-unsplash.jpg" alt="">
+                <p>Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment. The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the subject's introspective gaze</p>
+            </div>
+            <div class="gallrey-item">
+                <img src="images/hailey-wagner-4icV47LjYc4-unsplash.jpg" alt="">
+                <p>Explore the tranquil beauty of nature captured in this breathtaking image. Let the serene landscapes and vibrant colors transport you to a world of peace and wonder.</p>
+            </div>
+            <div class="gallrey-item .span1">
+                <img src="images/marcella-marcella-hn6CC9aosEk-unsplash.jpg" alt="">
+                <p>Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment. The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the subject's introspective gaze</p>
+            </div>
+            <div class="gallrey-item .span1">
+                <img src="images/marcella-marcella-hn6CC9aosEk-unsplash.jpg" alt="">
+                <p>Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment. The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the subject's introspective gaze</p>
+            </div>
+            <div class="gallrey-item .span1">
+                <img src="images/marcella-marcella-hn6CC9aosEk-unsplash.jpg" alt="">
+                <p>Marcella Marcella - An intriguing portrait capturing the essence of a contemplative moment. The interplay of light and shadow creates a captivating atmosphere, drawing the viewer into the subject's introspective gaze</p>
+            </div>
+            <div class="gallrey-item">
+                <img src="images/hailey-wagner-4icV47LjYc4-unsplash.jpg" alt="">
+                <p>Explore the tranquil beauty of nature captured in this breathtaking image. Let the serene landscapes and vibrant colors transport you to a world of peace and wonder.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

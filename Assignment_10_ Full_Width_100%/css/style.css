@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body{
+	font-family: arial;
+}
+.layout{
+	width: 100%;
+}
+.row1{
+	background-image: url('../images/spotlight-bg.webp');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	width: 100%;
+	border: 0px solid red;
+	box-sizing: border-box;
+	padding: 70px;
+}
+.heading{
+	color: white;
+	text-align: center;
+	width: 1320px;
+	margin: auto;
+}
+.heading h1{
+	font-size: 45px;
+	padding-bottom: 20px;
+}
+.heading p{
+	font-size: 18px;
+}
+.heading_content{
+	width: 1320px;
+	margin: auto;
+	border: 0px solid red;
+	color: white;
+	margin-top: 20px;
+	/*height: 400px;*/
+}
+.heading_column{
+	float: left;
+	border:0px solid black;
+	width: 25%;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+.heading_column h2{
+	padding-bottom: 30px;
+}
+.border{
+	border-right: 2px solid gray;
+	box-sizing: border-box;
+}
+.row2{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}.row2_left{
+	width: 50%;
+	float: left;
+}
+.row2_left h1{
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-left: 20px;
+	box-sizing: border-box;
+
+}
+.row2_left p{
+	font-size: 16px;
+	font-weight: 400;
+	margin: 40px;
+}
+.row2_left .box{
+	margin-bottom: 16px;
+	margin-left: 16px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+	box-shadow: 2px;
+}
+.row2_left .box h4{
+	font-size: 18px;
+	font-weight: 600;
+}
+.row2_right{
+	width: 50%;
+	float: left;
+}
+.row2_right div{
+	width: 500px;
+	margin: 100px auto;
+}
